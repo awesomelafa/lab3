@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<HTML>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+      .flex-container {
+        display: flex;
+        background-color: white;
+      }
+
+      .flex-container > section {
+        background: blue;
+        width: 200px;
+        height: 150px;
+        color: white;
+        border-style: solid;
+        text-align: center;
+        border-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="width:100%;background-color:red;height:20px;"><BR /></header>
+    <section class="flex-container">
+      <section style="flex-basis: 10%">1</section>
+      <section style="flex-basis: 80%">2</section>
+      <section style="flex-basis: 10%">3</section>
+    </section>
+    <footer style="width:100%;background-color:green;height:20px;">
+      <BR />
+    </footer>
+  </body>
+</HTML>
